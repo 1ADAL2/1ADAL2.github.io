@@ -3,45 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Currículum</title>
+
+    <!--Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title>Mi Personal Portafolio</title>
+    <!--CSS main styless-->
     <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-    <header>
-        <img src="tu-foto.jpg" alt="Foto de [Tu Nombre]" class="foto-perfil">
-        <h1>[Tu Nombre]</h1>
-        <p>Hola, soy [Tu Nombre], [tu profesión o título]. Tengo experiencia en [área específica o industria] y poseo habilidades en [lista de habilidades clave]. Mi objetivo profesional es [tu objetivo profesional en pocas palabras].</p>
+    <header class="header">
+        <a href="#" class="logo">Portafolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section>
-        <h2>Experiencia</h2>
-        <ul>
-            <li>
-                <strong>[Nombre del puesto]</strong> en [Nombre de la empresa] - [Fecha de inicio] - [Fecha de fin (si aplica)]
-                <p>Descripción breve de tus responsabilidades y logros.</p>
-            </li>
-            <li>
-                <strong>[Nombre del puesto]</strong> en [Nombre de la empresa] - [Fecha de inicio] - [Fecha de fin (si aplica)]
-                <p>Descripción breve de tus responsabilidades y logros.</p>
-            </li>
-        </ul>
+    <!--home-->
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi, Im Adal</h3>
+            <h1>Junior</h1>
+            <h3>Im a Fullstack developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et consectetur officiis ut dolores deleniti reiciendis eaque facere doloremque. Rem maiores aut consectetur amet officiis repellat pariatur voluptate saepe ullam praesentium?</p>
+            <div class="social-media">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Habilidades</h2>
-        <ul>
-            <li>[Habilidad 1]</li>
-            <li>[Habilidad 2]</li>
-            <li>[Habilidad 3]</li>
-            <!-- Agrega más habilidades según sea necesario -->
-        </ul>
-    </section>
 
-    <section>
-        <h2>Objetivos Profesionales</h2>
-        <p>[Descripción breve de tus metas profesionales a corto y largo plazo]</p>
-    </section>
+
+    <script src="JS/main.JS"></script>
 </body>
 </html>
