@@ -1,47 +1,67 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+:root{
+    --bg-color: #192f36;
+    --snd-bf-color: #262B40;
+    --text--color: #fff;
+    --main--color: #59b2f4;
 }
 
-header img.foto-perfil {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }
 
-h1, h2 {
-    color: #333;
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.logo{
+    font-size: 2.5rem;
+    color:var(--text--color);
+    font-weight: 700;
+    cursor: default;
 }
 
-ul li {
-    margin-bottom: 10px;
+.navbar a{
+    font-size: 1.5rem;
+    color: var(--text--color);
+    margin-left: 4rem;
+    font-weight: 700;
 }
 
-ul li strong {
-    display: block;
-    font-size: 1.2em;
-    margin-bottom: 5px;
+.navbar a:hover,
+.navbar a:active{
+    color: var(--text--color);
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text--color);
+    
 }
