@@ -1,34 +1,34 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background-color: gray;
-}
-
-.container {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #f4f4f4;
 }
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
 
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 5px;
+header img.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-.contacto, .educacion, .experiencia, .habilidades {
-    margin-bottom: 30px;
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
 }
 
 ul {
@@ -40,11 +40,8 @@ ul li {
     margin-bottom: 10px;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+ul li strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
 }
